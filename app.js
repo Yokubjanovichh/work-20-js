@@ -1,22 +1,22 @@
 "use strict";
 
-let thief = {
-  jacket: "black",
-  heigt: 1.7,
-  colors: {
-    hair: "yellow",
-    style: "curly",
-  },
-  howOut: function(){
-    console.log("by window");
-  }
-};
+// let thief = {
+//   jacket: "black",
+//   heigt: 1.7,
+//   colors: {
+//     hair: "yellow",
+//     style: "curly",
+//   },
+//   howOut: function(){
+//     console.log("by window");
+//   }
+// };
 
-thief.howOut();
+// thief.howOut();
 
-const {hair, style} = thief.colors;
+// const {hair, style} = thief.colors;
 
-console.log(hair, style);
+// console.log(hair, style);
 
 // delete thief.jacket;
 // console.log(thief);
@@ -38,3 +38,20 @@ console.log(hair, style);
 // }
 
 // console.log(count);
+
+let girlJs = {
+  sochi: "malla",
+  kuzi: "kariy",
+  kiyimi: {
+    hijobi: "ochJigarRang",
+    kuylagi: "qoraQizil",
+    oyoqKiyimi: {
+      turi: "yozgiKrasovka",
+      rangi: "oq",
+    },
+  },
+};
+
+const { turi, rangi } = girlJs.kiyimi.oyoqKiyimi;
+
+console.log(turi, rangi);
